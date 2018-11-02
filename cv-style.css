@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Syncopate|Amatica+SC|Bungee+Hairline|Raleway:300,600');
+
+body {
+  font-family: 'Raleway', san-serif;
+  line-height: 1.5em;
+}
+
+header {
+  text-align: center;
+  background-color: deeppink;
+  width: 100vw;
+  padding: 1em;
+  box-sizing: border-box;
+  color: black;
+}
+
+h1 {
+  font-family: 'Syncopate', sans-serif;
+  font-size: 3em;
+  margin: 1em 0 .5em;
+  line-height: 1em;
+}
+
+h2 {
+  color: black;
+  font-family: 'Amatica SC', san-serif;
+  font-size: 2em;
+  margin: .75em 0;
+  line-height: 1em;
+}
+
+h3 {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+section h2 {
+  font-family: 'Bungee Hairline', sans-serif;
+  color: deeppink;
+  margin-left: -30px;
+}
+
+section {
+  margin-left: 30px;
+}
+
+
+a {
+  text-decoration: none;
+  color: deeppink;
+}
+
+.content {
+  width: 80%;
+  margin: auto;
+}
+
+.entry {
+  margin-bottom: 1em;
+}
+
+.date {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: .8em;
+  float: right;
+}
+
+.note {
+  font-style: italic;
+}
+
+.location {
+  font-size: .8em;
+}
+
+.skill-rating {
+  font-size: 1.4em;
+  float: right;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  h3, .date {
+    display: block;
+    float: none;
+  }
+  .skill-rating {
+    display: none;
+  }
+}

@@ -18,4 +18,19 @@ $(document).ready(function(){
 
   /* Make it the tagline */
   $(".tagline").text(taglines[pick]);
+
+  /* Toggle sizes */
+  $(".toggle-small").click(function(){
+    $(this).addClass('active');
+    $(".toggle-large").removeClass('active')
+    $(".small").show();
+    $(".large").hide();
+  });
+
+  $(".toggle-large").click(function(){
+    $(this).addClass('active');
+    $(".toggle-small").removeClass('active')
+    $(".large").show();
+    $(".small").hide();
+  });
 });

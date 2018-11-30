@@ -123,6 +123,9 @@ h4 {
   color: rgba(210, 70, 210, 1);
 }
 
+.large {
+  display: none;
+}
 .horizontal-list {
   text-align: center;
 }

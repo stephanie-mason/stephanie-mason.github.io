@@ -33,6 +33,10 @@ a {
   transition: ease 0.2s;
 }
 
+img {
+  max-width: 100%;
+}
+
 button {
   color: rgba(255, 130, 210, 1);
   transition: ease 0.2s;
@@ -143,11 +147,12 @@ h4 {
     margin-right: 36px;
   }
 }
-.chart {
+.charts {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 18px;
 }
 .chart img {
   display: block;
   margin: auto;
-  max-width: 100%;
 }

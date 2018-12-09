@@ -10,7 +10,8 @@ $(document).ready(function(){
     "I am your knit purl, rip my heart out",
     "The right kind of purl to steal my dreams away",
     "Darkness falling yet another knit ",
-    "You're the Turbo Knitter"
+    "You're the Turbo Knitter",
+    "And to knitting we'll return"
   ];
 
   /* Pick one randomly */

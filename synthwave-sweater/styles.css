@@ -4,16 +4,25 @@ body {
 }
 
 main {
-  background-image: url('background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 50%;
   margin: 0;
   padding: 36px 18px;
   color: white;
   font-family: 'Rajdhani', sans-serif;
   font-size: 18px;
+}
+
+.background {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50%;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .content {
@@ -79,7 +88,7 @@ h1 {
 }
 @media (min-width: 600px) {
   h1 {
-   font-size: 80px;
+    font-size: 80px;
   }
 }
 @media (min-width: 800px) {
@@ -103,7 +112,7 @@ h1 {
 }
 @media (min-width: 600px) {
   .tagline {
-   font-size: 32px;
+    font-size: 32px;
   }
 }
 @media (min-width: 800px) {
@@ -121,7 +130,7 @@ h2 {
 }
 @media (min-width: 600px) {
   h2 {
-   font-size: 40px;
+    font-size: 40px;
   }
 }
 

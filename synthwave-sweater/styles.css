@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton|Mr+Dafoe|Racing+Sans+One|Rajdhani:400,500,600,700');
 body {
   margin: 0;
+  background-color: #2c003d;
 }
 
 main {
@@ -12,10 +13,14 @@ main {
 }
 
 .background {
+  overflow: hidden; // added for pseudo-element
+  position: relative;
+}
+
+.background:before {
   background-image: url('background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   background-position: 50%;
   width: 100vw;
   height: 100vh;
@@ -23,6 +28,7 @@ main {
   top: 0;
   left: 0;
   z-index: -1;
+  content: ' ';
 }
 
 .content {

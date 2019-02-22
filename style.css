@@ -61,12 +61,13 @@ h1 {
   text-align: left;
   cursor: pointer;
 }
-.main-nav li {
+.main-nav a {
+  display: block;
   padding: 1em;
   margin: 1em 0;
   vertical-align: baseline;
 }
-.main-nav li:hover {
+.main-nav a:hover {
   color: black;
 }
 
@@ -114,18 +115,7 @@ section div:nth-of-type(even) {
   float: right;
   text-align: right;
 }
-/*
-.and {
-  font-size: 3em;
-  color: white;
-  position: absolute;
-  top: 450px;
-  left: 100px;
-  transform: rotate(-20deg);
-  background-color: magenta;
-  padding: 10px;
-}
-*/
+
 #art p{
   background: deeppink;
   color: cyan;
@@ -207,16 +197,15 @@ section div:nth-of-type(even) {
 #science-design p {
   color: white;
 }
-#textiles-electronics p {
+#textiles p {
   font-family: 'comic sans ms', cursive;
   background: black;
   color: magenta;
   text-shadow: 0px 0px 5px cyan;
 }
-#textiles-design p {
-  font-family: 'VT323', monospace;
-  background: white;
-  text-shadow: 0px 0px 3px deeppink;
+#textiles a {
+  color: turquoise;
+  text-decoration: underline;
 }
 #web-design p {
   font-family: 'Comic Sans MS', cursive;
@@ -240,9 +229,6 @@ section div:nth-of-type(even) {
 }
 
 @media screen and (max-width: 1000px) {
-  body {
-    font-size: 3em;
-  }
   .left-side {
    width: 100%;
    left: 0;
@@ -258,19 +244,15 @@ section div:nth-of-type(even) {
     position: relative;
     width: 100vw;
     left: 0;
+    background: repeating-linear-gradient(135deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5) 10px, rgba(255, 255, 0, 0.5) 10px, rgba(255, 255, 0, 0.5) 20px, rgba(0, 255, 0, 0.5) 20px, rgba(0, 255, 0, 0.5) 30px, rgba(0, 255, 255, 0.5) 30px, rgba(0, 255, 255, 0.5) 40px, rgba(0, 0, 255, 0.5) 40px, rgba(0, 0, 255, 0.5) 50px, rgba(255, 0, 255, 0.5) 50px, rgba(255, 0, 255, 0.5) 60px), repeating-linear-gradient(45deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5) 10px, rgba(255, 255, 0, 0.5) 10px, rgba(255, 255, 0, 0.5) 20px, rgba(0, 255, 0, 0.5) 20px, rgba(0, 255, 0, 0.5) 30px, rgba(0, 255, 255, 0.5) 30px, rgba(0, 255, 255, 0.5) 40px, rgba(0, 0, 255, 0.5) 40px, rgba(0, 0, 255, 0.5) 50px, rgba(255, 0, 255, 0.5) 50px, rgba(255, 0, 255, 0.5) 60px), #FFF;
   }
   section div {
     width: 100%;
+    background: repeating-linear-gradient(135deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5) 10px, rgba(255, 255, 0, 0.5) 10px, rgba(255, 255, 0, 0.5) 20px, rgba(0, 255, 0, 0.5) 20px, rgba(0, 255, 0, 0.5) 30px, rgba(0, 255, 255, 0.5) 30px, rgba(0, 255, 255, 0.5) 40px, rgba(0, 0, 255, 0.5) 40px, rgba(0, 0, 255, 0.5) 50px, rgba(255, 0, 255, 0.5) 50px, rgba(255, 0, 255, 0.5) 60px), repeating-linear-gradient(45deg, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5) 10px, rgba(255, 255, 0, 0.5) 10px, rgba(255, 255, 0, 0.5) 20px, rgba(0, 255, 0, 0.5) 20px, rgba(0, 255, 0, 0.5) 30px, rgba(0, 255, 255, 0.5) 30px, rgba(0, 255, 255, 0.5) 40px, rgba(0, 0, 255, 0.5) 40px, rgba(0, 0, 255, 0.5) 50px, rgba(255, 0, 255, 0.5) 50px, rgba(255, 0, 255, 0.5) 60px), #FFF;
   }
   #about, #contact {
     max-width: 70vw;
     padding-top: 100px;
-  }
-  .close {
-    font-size: 80px;
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
   }
   .smaller {
     font-size: 0.7em;
@@ -281,13 +263,13 @@ section div:nth-of-type(even) {
 }
 
 @media screen and (max-height: 740px) {
-  .main-nav li {
+  .main-nav a {
     padding: .2em;;
   }
 }
 
 @media screen and (max-height: 460px) {
-  .main-nav li {
+  .main-nav a {
     font-size: .8em;
   }
 }

@@ -39,21 +39,11 @@ $(document).ready(function(){
   var science = new Section("galaxy.jpg", "aqua", "white", 6);
   var random = new Section("hat.jpg", "deeppink", "black", 7);
 
-  art["intersectSet"] = [textiles];
-  science["intersectSet"] = [design];
-  textiles["intersectSet"] = [art, electronics, design];
-  code["intersectSet"] = [];
-  electronics["intersectSet"] = [textiles];
-  web["intersectSet"] = [design];
-  design["intersectSet"] = [science, web, textiles];
-  random["intersectSet"] = [];
-
-
   var sectionSet = [art, science, textiles, code, electronics, web, design, random];
   var currentlySelected = [];
 
   /* HOVERING OVER THE MENU MAKES THINGS HAPPEN */
-  $('.main-nav li').mouseenter(function(){
+  $('.main-nav a').mouseenter(function(){
     var buttonId = eval($(this).attr("id").split("-")[0]);
     var bgUrl = 'url("images/' + buttonId["bgImage"] + '")';
     var menuUrl = buttonId["menuText"] == "white" ? 'url("images/blackspace.jpg")' : 'url("images/whitespace.jpg")'
@@ -64,14 +54,14 @@ $(document).ready(function(){
     $('.main-nav').css('background-image', menuUrl).css('color', buttonId["menuText"]).css('background-position-y', bgPos);
   });
 
-  $('.main-nav li').mouseleave(function(){
+  $('.main-nav a').mouseleave(function(){
     var buttonId = eval($(this).attr("id").split("-")[0]);
     if(!buttonId["selected"]) $(this).find("span").hide();
   });
 
 
   /* CLICKING BUTTONS DOES SOME SPECIAL THINGS TOO */
-  $('.main-nav li').on('click', function(){
+  $('.main-nav a').on('click', function(){
     var sectionName = $(this).attr("id").split("-")[0];
     var section = eval(sectionName);
 

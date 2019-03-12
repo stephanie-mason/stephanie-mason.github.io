@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700|Metamorphous|Uncial+Antiqua');
+
+.background {
+  background-color: #333;
+  background-image: url('background.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+body {
+  color: #fff7ed;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+a {
+  color: #cce4f4;
+  transition: .2s ease;
+}
+
+a:hover {
+  color: #7F3E30;
+}
+
+h1 {
+  font-family: 'Uncial Antiqua', serif;
+  font-size: 38px;
+  color: peachpuff;
+  text-shadow: 2px 2px 1px black;
+}
+
+h2, h3, h4, h5 {
+  font-family: 'Metamorphous', serif;
+  margin: 0;
+  margin-bottom: 16px;
+  color: peachpuff;
+}
+
+h3 {
+  padding-bottom: 4px;
+  border-bottom: solid 1px;
+  color: #cce4f4;
+  position: relative;
+}
+
+h3:after {
+  content: '+';
+  position: absolute;
+  right: 16px;;
+}
+
+section {
+  background: rgba(40, 20, 20, 0.8);
+  padding: 12px;  
+  margin-bottom: 16px;
+}
+
+
+.weeks {
+  font-family: 'Uncial Antiqua', serif;
+  border-bottom: solid 1px;
+  text-align: center;
+  margin-bottom: 4px;
+  padding-bottom: 4px;
+}
+
+.days-hours-countdown {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 400px;
+  margin: auto;
+}
+
+.time-unit {
+  display: inline-block;
+}
+
+.event-heading {
+  text-decoration: none;
+  padding: 8px;
+}
+
+.event-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease;
+}
+
+.event-heading:focus + .event-body {
+  max-height: 1000px;
+}
+
+
+.event.passed,
+.event.passed h2, 
+.event.passed h3, 
+.event.passed h4 {
+  color: #7F3E30;
+}
+
+
+.event.up-next .event-body {
+  max-height: none;
+}
+
+.event.up-next .event-heading:after {
+  content: 'up next';
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 0.7em;
+  bottom: 12px;
+}
+

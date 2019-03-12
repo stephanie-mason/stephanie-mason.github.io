@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700|Metamorphous|Uncial+Antiqua');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400i,700|Metamorphous|Uncial+Antiqua');
 
 .background {
   background-color: #333;
@@ -16,6 +16,7 @@ body {
   color: #fff7ed;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 18px;
+  padding: 16px;
 }
 
 main {
@@ -32,11 +33,21 @@ a:hover {
   color: #7F3E30;
 }
 
+ul {
+  list-style: disc inside;
+}
+
+li {
+  line-height: 1.2em;
+}
+
 h1 {
   font-family: 'Uncial Antiqua', serif;
   font-size: 38px;
   color: peachpuff;
   text-shadow: 2px 2px 1px black;
+  margin: 0;
+  margin-bottom: 16px;
 }
 
 h2, h3, h4, h5 {
@@ -44,6 +55,7 @@ h2, h3, h4, h5 {
   margin: 0;
   margin-bottom: 16px;
   color: peachpuff;
+  line-height: 1.5em;
 }
 
 h3 {
@@ -57,6 +69,11 @@ h3:after {
   content: '+';
   position: absolute;
   right: 16px;;
+}
+
+p {
+  margin: 16px 0;
+  line-height: 1.2em;
 }
 
 section {
@@ -94,6 +111,7 @@ section {
   max-height: 0;
   overflow: hidden;
   transition: max-height 1s ease;
+  padding: 0 8px;
 }
 
 .event-heading:focus + .event-body {

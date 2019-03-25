@@ -35,6 +35,7 @@ a:hover {
 
 ul {
   list-style: disc inside;
+  margin-bottom: 16px;
 }
 
 li {
@@ -78,7 +79,7 @@ p {
 
 section {
   background: rgba(40, 20, 20, 0.8);
-  padding: 12px;  
+  padding: 12px;
   margin-bottom: 16px;
 }
 
@@ -120,8 +121,8 @@ section {
 
 
 .event.passed,
-.event.passed h2, 
-.event.passed h3, 
+.event.passed h2,
+.event.passed h3,
 .event.passed h4 {
   color: #7F3E30;
 }
@@ -138,4 +139,3 @@ section {
   bottom: 12px;
   color: peachpuff;
 }
-

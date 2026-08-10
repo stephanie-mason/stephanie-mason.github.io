@@ -21,5 +21,5 @@ pnpm-debug.log*
 .DS_Store
 
 # video folder
-public/video
-public/uploads/*
+#public/video
+#public/uploads/*

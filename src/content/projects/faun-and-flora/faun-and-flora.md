@@ -1,7 +1,7 @@
 ---
 title: "Faun & Flora"
 date: 2023-03-07
-categories: ["led-works", "e-textiles", "sewing"]
+categories: ["featured", "led-works", "e-textiles", "sewing"]
 materials: ["Mixed Media Quilt"]
 dimensions: "39\" x 55\""
 cover: "./faun.webp"

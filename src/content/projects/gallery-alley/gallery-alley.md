@@ -1,7 +1,7 @@
 ---
 title: "Gallery Alley Door"
 date: 2025-07-28
-categories: ["animals"]
+categories: ["featured", "animals"]
 materials: ["Acrylic paint on door"]
 dimensions: "30\" x 80\""
 cover: "./gallery-alley.webp"

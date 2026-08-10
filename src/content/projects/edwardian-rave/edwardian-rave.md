@@ -1,7 +1,7 @@
 ---
 title: "Edwardian Rave Wear"
 date: 2022-07-01
-categories: ["sewing", "costuming", "wearables"]
+categories: ["featured", "sewing", "costuming", "wearables"]
 materials: ["Rayon Silk Velvet, Silk, and LEDs"]
 cover: "./edwardian-rave-5.jpg"
 cover_alt: "Stephanie in a black velvet 1910s gown with magenta trim. Down the back is a beaded panel that lights up."

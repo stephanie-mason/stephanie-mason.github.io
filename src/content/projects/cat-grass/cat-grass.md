@@ -1,7 +1,7 @@
 ---
 title: "Cat Grass"
 date: 2025-11-05
-categories: ["animals, led-works"]
+categories: ["animals", "led-works"]
 materials: ["Colored pencil on drafting film, WS2812B LEDs powered by QT Py & FastLED"]
 cover: "./cat-grass-1.webp"
 cover_alt: "A tabby cat laying in grass with a colorful halo backlit by leds"

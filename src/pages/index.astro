@@ -7,9 +7,10 @@ import stefPic from '../images/stef-2025.webp';
 
 const pageTitle = "Hi There";
 const allProjects = await getCollection("projects");
-let { projects } = Astro.props;
+let { projects, featured } = Astro.props;
 
 projects = allProjects.sort((a, b) => new Date(b.data.date) - new Date(a.data.date)).slice(0,8);
+featured = allProjects.filter((project) => project.data.categories.includes("featured"));
 ---
 <BaseLayout pageTitle={pageTitle}>
 	
@@ -34,6 +35,26 @@ projects = allProjects.sort((a, b) => new Date(b.data.date) - new Date(a.data.da
 		</p>	
 		<p>You can get in touch with me at <a href="mailto:info@stefmakes.art">info@stefmakes.art</a>.</p>
 	</div>
+
+	<h2>Featured Projects</h2>
+	<div class="cards">
+		{featured.map((project) => {
+			const year = project.data.date.getFullYear();
+			const month = project.data.date.getMonth();
+			const fullMonth = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+			return (
+			<Card 
+			title={project.data.title} 
+			href={`/projects/${project.slug}/`}
+			image={project.data.cover}
+			image_alt={project.data.cover_alt}
+			>
+			<p>{fullMonth[month]} {year}</p>
+			<p>{project.data.materials} {project.data.dimensions}</p>
+			</Card>
+			);
+		})}
+	</div>
 	
 	<h2>Most Recent Projects</h2>
 	<div class="cards">
@@ -50,10 +71,10 @@ projects = allProjects.sort((a, b) => new Date(b.data.date) - new Date(a.data.da
 			>
 			<p>{fullMonth[month]} {year}</p>
 			<p>{project.data.materials} {project.data.dimensions}</p>
-		</Card>
-		);
-	})}
-</div>
+			</Card>
+			);
+		})}
+	</div>
 </BaseLayout>
 
 <style>

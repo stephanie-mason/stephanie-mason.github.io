@@ -1,11 +1,11 @@
 ---
 title: ""
-date: 2024-01-01
+date: 2027-01-01
 categories: [""]
 materials: [""]
 dimensions: "\" x \""
-cover: "./-1.jpeg"
+cover: "./-1.webp"
 cover_alt: ""
-images: ["./-2.jpeg", "./-3.jpeg"]
+images: ["./-2.webp", "./-3.webp"]
 image_alts: ["", "", ""]
 ---

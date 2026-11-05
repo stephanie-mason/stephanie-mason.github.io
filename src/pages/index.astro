@@ -1,79 +1,133 @@
 ---
 import { getCollection } from "astro:content";
-import BaseLayout from '../layouts/BaseLayout.astro';
-import Card from '../components/Card.astro';
-import { Image } from 'astro:assets';
-import stefPic from '../images/stef-2025.webp';
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Card from "../components/Card.astro";
+import { Image } from "astro:assets";
+import stefPic from "../images/stef-2025.webp";
 
 const pageTitle = "Hi There";
 const allProjects = await getCollection("projects");
 let { projects, featured } = Astro.props;
 
-projects = allProjects.sort((a, b) => new Date(b.data.date) - new Date(a.data.date)).slice(0,5);
-featured = allProjects.filter((project) => project.data.categories.includes("featured"));
+projects = allProjects
+	.sort((a, b) => new Date(b.data.date) - new Date(a.data.date))
+	.slice(0, 5);
+featured = allProjects.filter((project) =>
+	project.data.categories.includes("featured"),
+);
 ---
+
 <BaseLayout pageTitle={pageTitle}>
-	
 	<div class="intro">
-		<Image src={stefPic} alt="Stephanie Paulantis with bright pink flowers in her hair" width="650"/>
-		
-		<p>I'm Stephanie Paulantis, this is my website.</p>
-		<p> 
-			I'm an artist, maker, and crafter. 
-			I draw & paint, do fiber arts, dink around with circuit boards and LEDs, 
-			and generally experiment with projects at the intersections of my many interests. This is where I attempt to collect and 
-			showcase the things I've made over the years.
+		<Image
+			src={stefPic}
+			alt="Stephanie Paulantis with bright pink flowers in her hair"
+			width="650"
+		/>
+
+		<p>I'm Stephanie Paulantis.</p>
+		<p>
+			I'm an artist, maker, and crafter. I draw & paint, do fiber arts,
+			dink around with circuit boards and LEDs, and generally experiment
+			with projects at the intersections of my many interests. This website is
+			where I attempt to collect and showcase the things I've made over
+			the years.
 		</p>
 		<p>
-			Because I have a lot of varied interests and hobbies, my work spans multiple mediums and genres.
-			I've roughly grouped some things together into categories in an attempt to present cohesive collections of works. Some pieces will be found in multiple categories.
-			Some pieces probably should be in multiple categories, but I've left them in the one spot I think they fit best.
+			Because I have a lot of varied interests and hobbies, my work spans
+			multiple mediums and genres. I've roughly grouped some things
+			together into categories in an attempt to present cohesive
+			collections of works. Some pieces will be found in multiple
+			categories. Some pieces probably should be in multiple categories,
+			but I've left them in the one spot I think they fit best.
 		</p>
 		<p>
-			Outside of making things, I work in higher ed as a web developer. I enjoy video games (retro games especially), reading, speed puzzling, disc golf, attending festivals,
-			and spending time with my family, my partner, and our many pets.
-		</p>	
-		<p>You can get in touch with me at <a href="mailto:itsstef@gmail.com">itsstef@gmail.com</a>.</p>
+			Outside of making things, I work in higher ed as a web developer. I
+			enjoy running, reading, speed puzzling, video games (retro games
+			especially), disc golf, attending festivals, and spending time with
+			my family, my partner, and our many pets.
+		</p>
+		<p>
+			You can get in touch with me at <a href="mailto:itsstef@gmail.com">itsstef@gmail.com</a>.
+		</p>
+	</div>
+
+	<h2>Most Recent Projects</h2>
+	<div class="cards">
+		{
+			projects.map((project) => {
+				const year = project.data.date.getFullYear();
+				const month = project.data.date.getMonth();
+				const fullMonth = [
+					"January",
+					"February",
+					"March",
+					"April",
+					"May",
+					"June",
+					"July",
+					"August",
+					"September",
+					"October",
+					"November",
+					"December",
+				];
+				return (
+					<Card
+						title={project.data.title}
+						href={`/projects/${project.slug}/`}
+						image={project.data.cover}
+						image_alt={project.data.cover_alt}
+					>
+						<p>
+							{fullMonth[month]} {year}
+						</p>
+						<p>
+							{project.data.materials} {project.data.dimensions}
+						</p>
+					</Card>
+				);
+			})
+		}
 	</div>
 
 	<h2>Featured Projects</h2>
 	<div class="cards">
-		{featured.map((project) => {
-			const year = project.data.date.getFullYear();
-			const month = project.data.date.getMonth();
-			const fullMonth = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-			return (
-			<Card 
-			title={project.data.title} 
-			href={`/projects/${project.slug}/`}
-			image={project.data.cover}
-			image_alt={project.data.cover_alt}
-			>
-			<p>{fullMonth[month]} {year}</p>
-			<p>{project.data.materials} {project.data.dimensions}</p>
-			</Card>
-			);
-		})}
-	</div>
-	
-	<h2>Most Recent Projects</h2>
-	<div class="cards">
-		{projects.map((project) => {
-			const year = project.data.date.getFullYear();
-			const month = project.data.date.getMonth();
-			const fullMonth = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-			return (
-			<Card 
-			title={project.data.title} 
-			href={`/projects/${project.slug}/`}
-			image={project.data.cover}
-			image_alt={project.data.cover_alt}
-			>
-			<p>{fullMonth[month]} {year}</p>
-			<p>{project.data.materials} {project.data.dimensions}</p>
-			</Card>
-			);
-		})}
+		{
+			featured.map((project) => {
+				const year = project.data.date.getFullYear();
+				const month = project.data.date.getMonth();
+				const fullMonth = [
+					"January",
+					"February",
+					"March",
+					"April",
+					"May",
+					"June",
+					"July",
+					"August",
+					"September",
+					"October",
+					"November",
+					"December",
+				];
+				return (
+					<Card
+						title={project.data.title}
+						href={`/projects/${project.slug}/`}
+						image={project.data.cover}
+						image_alt={project.data.cover_alt}
+					>
+						<p>
+							{fullMonth[month]} {year}
+						</p>
+						<p>
+							{project.data.materials} {project.data.dimensions}
+						</p>
+					</Card>
+				);
+			})
+		}
 	</div>
 </BaseLayout>
 
@@ -99,5 +153,5 @@ featured = allProjects.filter((project) => project.data.categories.includes("fea
 		max-width: 50vw;
 		margin-right: var(--space--sm);
 		height: unset;
-	}	
+	}
 </style>

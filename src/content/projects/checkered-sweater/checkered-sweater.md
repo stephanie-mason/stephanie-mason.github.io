@@ -1,7 +1,7 @@
 ---
 title: "Optical Illusion Sweater"
 date: 2023-11-03
-categories: ["knit-crochet"]
+categories: ["knit-crochet", "fiber"]
 materials: ["Knit Picks Swish DK"]
 cover: "./checkered-sweater-2.jpeg"
 cover_alt: "Stephanie wearing a black sweater with neon green distored checkers on the front"

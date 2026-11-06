@@ -1,7 +1,7 @@
 ---
 title:  "Juggling Balls"
 date: 2011-06-01 22:33:00
-tags: ["sewing", "circus"]
+tags: ["sewing", "fiber", "circus"]
 ---
 
 <img src="/uploads/2011/06/juggle-balls.jpg">

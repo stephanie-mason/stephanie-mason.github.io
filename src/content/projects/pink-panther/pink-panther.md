@@ -1,7 +1,7 @@
 ---
 title: "Pink Panther"
 date: 2022-10-13
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Soft Pastel"]
 dimensions: "6\" x 6\""
 cover: "./pink-panther.jpg"

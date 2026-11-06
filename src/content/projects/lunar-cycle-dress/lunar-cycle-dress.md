@@ -1,7 +1,7 @@
 ---
 title: "Lunar Cycle Dress"
 date: 2024-07-03
-categories: ["sewing", "dyeing"]
+categories: ["sewing", "fiber", "dyeing"]
 materials: ["Procion Dyes on Rayon/Linen Blend"]
 cover: "./lunar-1.webp"
 cover_alt: "Black dress with white and yellow tie dye sections. Running vertically down the center front is the lunar chcle, the sleeves and bottom corners of the dress are concentric yellow and white rings."

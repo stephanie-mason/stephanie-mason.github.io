@@ -1,7 +1,7 @@
 ---
 title:  "Tutorial: How to Create Tucks"
 date: 2013-01-25 03:07:37
-tags: ["sewing", "tutorial"]
+tags: ["sewing", "fiber", "tutorial"]
 ---
 Hey everyone! I made a tutorial! I figured I should show ya'll how to sew tucks, like those I used in my recent duvet cover post. (Scroll to the bottom for more detailed instructions!)
 

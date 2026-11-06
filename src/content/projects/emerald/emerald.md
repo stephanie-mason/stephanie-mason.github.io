@@ -1,7 +1,7 @@
 ---
 title: "Emerald"
 date: 2024-01-19
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Soft Pastel"]
 dimensions: "9\" x 12\""
 cover: "./emerald-1.jpeg"

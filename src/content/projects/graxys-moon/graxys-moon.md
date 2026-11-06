@@ -1,7 +1,7 @@
 ---
 title: "Graxys and the Moon"
 date: 2024-01-03
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Soft Pastel"]
 dimensions: "12\" x 19\""
 cover: "./graxys-moon-1.jpeg"

@@ -1,7 +1,7 @@
 ---
 title: "Labrador Retriever"
 date: 2025-08-02
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Watercolor & Soft Pastel"]
 dimensions: "7\" x 10\""
 cover: "./lab-retriever.webp"

@@ -1,7 +1,7 @@
 ---
 title:  "Clown v Monster 2"
 date:   2011-05-03 03:40:00
-tags: ["circus", "sewing"]
+tags: ["circus", "sewing", "fiber"]
 ---
 
 

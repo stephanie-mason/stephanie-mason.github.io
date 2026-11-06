@@ -1,7 +1,7 @@
 ---
 title: "Arctium Sweater"
 date: 2024-01-01
-categories: ["knit-crochet"]
+categories: ["knit-crochet", "fiber"]
 materials: ["Spincycle Dream State & Farmer's Daughter Pishkun DK"]
 cover: "./arctium-3.jpg"
 cover_alt: "Long sleeve sweater with fair isle yoke, knit in golden tones"

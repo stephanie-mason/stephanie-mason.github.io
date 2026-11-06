@@ -1,7 +1,7 @@
 ---
 title: "Baking at Grandma's House"
 date: 2024-03-16
-categories: ["people"]
+categories: ["people", "paintings"]
 materials: ["Soft Pastel"]
 dimensions: "9\" x 12\""
 cover: "./baking-at-grandmas-1.jpeg"

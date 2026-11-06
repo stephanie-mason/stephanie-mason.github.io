@@ -1,7 +1,7 @@
 ---
 title: "Fox Fae"
 date: 2024-10-06
-categories: ["other"]
+categories: ["paintings"]
 materials: ["Soft Pastel"]
 dimensions: "19.5\" x 27.5\""
 cover: "./fuchszwerge-1.jpeg"

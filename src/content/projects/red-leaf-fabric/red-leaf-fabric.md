@@ -1,7 +1,7 @@
 ---
 title: "Red Leaf Fabric"
 date: 2022-09-28
-categories: ["sewing"]
+categories: ["sewing", "fiber"]
 materials: ["Jacquard Acid Dye & Wool"]
 cover: "./red-leaf-fabric-1.jpg"
 cover_alt: "red fabric with cream colored leaf imprints"

@@ -1,7 +1,7 @@
 ---
 title: "Swallow Banners"
 date: 2024-08-07
-categories: ["animals", "sewing"]
+categories: ["animals", "paintings", "sewing", "fiber"]
 materials: ["Dye Paint on Fabric"]
 dimensions: "24\" x 42\""
 cover: "./swallow-a-1.jpeg"

@@ -1,7 +1,7 @@
 ---
 title:  "Cycling Cap"
 date:   2011-05-04 11:55:00
-tags: ["sewing"]
+tags: ["sewing", "fiber"]
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Heart Glasses"
 date: 2019-01-01
-categories: ["wearables"]
+categories: ["leds", "wearables"]
 materials: ["WS2812B powered by Trinket"]
 cover: "./heart-glasses-0.jpg"
 cover_alt: "LEDS in a heart shaped array made into glasses"

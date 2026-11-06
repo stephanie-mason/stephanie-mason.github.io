@@ -1,7 +1,7 @@
 ---
 title: "Tanagers"
 date: 2025-09-29
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Acrylic Marker"]
 dimensions: "6\" x 6\""
 cover: "./all.webp"

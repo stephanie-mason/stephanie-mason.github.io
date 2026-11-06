@@ -1,7 +1,7 @@
 ---
 title: "African Wild Dogs"
 date: 2026-10-22
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Soft pastels on Velour"]
 dimensions: "13\" x 19\""
 cover: "./wild-dog-1.webp"

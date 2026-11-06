@@ -1,7 +1,7 @@
 ---
 title: "Colored Pencil Dog Portraits"
 date: 2022-03-02
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Colored Pencils & Soft Pastel Pencils"]
 cover: "./calliope-obadon.jpg"
 cover_alt: "Calliope and Obadon, both herding mixes. Calliope is fluffy and white, Obadon has short hair and gray merle spots on a mostly white body"

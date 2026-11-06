@@ -1,7 +1,7 @@
 ---
 title: "Synthwave Obadon"
 date: 2022-09-10
-categories: ["featured", "animals"]
+categories: ["featured", "animals", "paintings"]
 materials: ["Soft Pastel"]
 dimensions: "13\" x 19\""
 cover: "./synthwave-obadon.jpg"

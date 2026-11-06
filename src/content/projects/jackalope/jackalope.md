@@ -1,7 +1,7 @@
 ---
 title: "Jackalope"
 date: 2024-10-19
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Watercolor, Gouache, Colored Pencil, Alcohol Marker"]
 dimensions: "9\" x 12\""
 cover: "./jackalope-3.jpeg"

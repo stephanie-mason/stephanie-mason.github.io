@@ -1,7 +1,7 @@
 ---
 title: "Golden Retriever"
 date: 2025-08-25
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Watercolor Pencil & Soft Pastel"]
 dimensions: "5\" x 8\""
 cover: "./golden-retriever.webp"

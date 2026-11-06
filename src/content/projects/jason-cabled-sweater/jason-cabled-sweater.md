@@ -1,7 +1,7 @@
 ---
 title: "Cabled Sweater for Jason"
 date: 2023-11-20
-categories: ["knit-crochet"]
+categories: ["knit-crochet", "fiber"]
 materials: ["Lion Brand Fisherman's Wool"]
 cover: "./jason-cabled-sweater-1.webp"
 cover_alt: "Taupe all-over cabled sweater with high collar"

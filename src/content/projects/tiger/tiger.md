@@ -1,7 +1,7 @@
 ---
 title: "Tiger"
 date: 2022-04-14
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Gouache on Paper"]
 dimensions: "9\" x 12\""
 cover: "./tiger.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Obadon Oil Study"
 date: 2022-04-01
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Soft Pastel & Colored Pencil"]
 dimensions: "8\" x 8\""
 cover: "./obadon-oil.jpg"

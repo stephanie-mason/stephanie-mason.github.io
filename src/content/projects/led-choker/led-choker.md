@@ -1,7 +1,7 @@
 ---
 title: "Choker"
 date: 2019-05-16
-categories: ["wearables"]
+categories: ["leds", "wearables"]
 materials: ["WS2812B powered by Trinket"]
 cover: "./led-choker-1.jpg"
 cover_alt: "simple choker made of LEDs"

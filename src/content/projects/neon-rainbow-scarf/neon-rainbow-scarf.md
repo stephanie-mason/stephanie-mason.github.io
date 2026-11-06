@@ -1,7 +1,7 @@
 ---
 title: "Neon Rainbow Scarf"
 date: 2024-03-16
-categories: ["knit-crochet"]
+categories: ["knit-crochet", "fiber"]
 materials: ["Merino Wool, Hand Spun & Knit"]
 cover: "./neon-rainbow-scarf-1.jpeg"
 cover_alt: "Stephanie wearing a black and white neon rainbow triangle scarf"

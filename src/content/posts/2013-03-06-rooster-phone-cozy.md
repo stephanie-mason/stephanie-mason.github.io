@@ -1,7 +1,7 @@
 ---
 title:  "Rooster Phone Cozy - My first Serging Project"
 date: 2013-03-06 22:40:53
-tags: ["sewing"]
+tags: ["sewing", "fiber"]
 ---
 Oh man. I am in love with my new serger. Last night I went through my unfinished projects box and finally took in the sides of a t-shirt that was too big (it took _less than two minutes)_ and I finally sewed the sleeves onto a shirt I had made but never finished ages ago.
 

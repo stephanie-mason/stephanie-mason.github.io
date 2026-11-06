@@ -1,7 +1,7 @@
 ---
 title: "LED Crop Top"
 date: 2016-06-10
-categories: ["wearables"]
+categories: ["leds", "wearables"]
 materials: ["WS2812B LEDs powered by Adafruit Bluefruit Feather"]
 cover: "./led-crop-top-0.jpg"
 cover_alt: "crop top with textured smocking over colorful LEDs"

@@ -1,7 +1,7 @@
 ---
 title:  "Finished Costume"
 date:   2010-10-29 20:04:00
-tags: ["sewing"]
+tags: ["sewing", "fiber"]
 ---
 
 <img src="/uploads/2010/10/finished01.jpg">

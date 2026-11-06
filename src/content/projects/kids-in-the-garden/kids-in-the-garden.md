@@ -1,7 +1,7 @@
 ---
 title: "Kids in the Garden"
 date: 2022-07-10
-categories: ["people"]
+categories: ["people", "paintings"]
 materials: ["Soft Pastel"]
 dimensions: "20\" x 28\""
 cover: "./kids-in-the-garden-1.jpg"

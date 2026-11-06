@@ -1,7 +1,7 @@
 ---
 title: "Nouveau Fae Rytherck"
 date: 2022-05-20
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Soft Pastel"]
 dimensions: "11\" x 14\""
 cover: "./fae-rytherck.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Colorful Dogs"
 date: 2023-10-16
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Soft Pastel"]
 dimensions: "6\" x 6\""
 cover: "./colorful-dogs-1.jpeg"

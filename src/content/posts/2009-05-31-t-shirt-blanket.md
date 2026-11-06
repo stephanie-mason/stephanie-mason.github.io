@@ -1,7 +1,7 @@
 ---
 title:  "T-Shirt Blanket"
 date:   2009-05-31 00:58:00
-tags: ["sewing", "old"]
+tags: ["sewing", "fiber", "old"]
 ---
 I've been super busy graduating from college lately, and while I've still been doing a ton of crafts I haven't had time to update my blog! Also-my camera broke. This is something I discovered right when I was about to take pictures of some stuff to post, so that was a bummer. But I got a new camera (thanks to my awesome brother!) and no longer have any college work to hold me back so I will soon be posting everything to catch up. But for now I just wanted to post something that I was super happy to create, because its my first sort of foray into quilting which is something I've been hoping to try for awhile now. I just get a little intimidated by the whole idea, because I tend to lose interest in things quickly. But here it is, a t-shirt blanket made for my BF.
 

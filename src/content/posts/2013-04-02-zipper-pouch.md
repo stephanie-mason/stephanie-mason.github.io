@@ -1,7 +1,7 @@
 ---
 title:  "Sewing Tutorial: Simple Zipper Pouch"
 date: 2013-04-02 21:36:26
-tags: ["sewing", "tutorial"]
+tags: ["sewing", "fiber", "tutorial"]
 ---
 ![Zipper Pouch Tutorial](/uploads/2013/04/header_zipper-pouch.jpg)
 

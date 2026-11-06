@@ -1,7 +1,7 @@
 ---
 title:  "Getting Started"
 date:   2008-11-20 19:25:00
-tags: ["sewing", "textile"]
+tags: ["sewing", "fiber", "textile"]
 ---
 This is my new crafting blog. I’ll be posting various sewing, knitting, crochet, felting, and other projects here. If I do any artwork I’ll post it here too, though it will probably be a bit more rare (though art is really more my forté, I finish those projects even less often than I finish crafting projects!) Its a bit rough right now, but eventually I’ll probably make it look a little nicer. Tweak the HTML and whatnot. Right now I’m busy crafting for the holidays. I’ll be posting pictures of those goodies very soon! In the meantime, here are a couple of my favorite sewing projects that I’ve done in the not so recent past:
 

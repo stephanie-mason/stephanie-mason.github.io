@@ -1,7 +1,7 @@
 ---
 title: "Rytherck the Swizz King"
 date: 2024-01-19
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Watercolor"]
 dimensions: "6\" x 8\""
 cover: "./rytherck-watercolor-1.jpeg"

@@ -1,7 +1,7 @@
 ---
 title:  "Even more Costume"
 date:   2010-10-28 19:00:00
-tags: ["sewing"]
+tags: ["sewing", "fiber"]
 ---
 
 

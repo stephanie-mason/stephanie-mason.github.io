@@ -1,7 +1,7 @@
 ---
 title:  "Clea's Quilt"
 date: 2011-10-04 10:52:00
-tags: ["sewing"]
+tags: ["sewing", "fiber"]
 ---
 
 <img src="/uploads/2011/10/quilt01.jpg">

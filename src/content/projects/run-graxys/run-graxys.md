@@ -1,7 +1,7 @@
 ---
 title: "Run Graxys"
 date: 2023-07-05
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Acrylic & Metal Leaf on Board"]
 dimensions: "8\" x 10\""
 cover: "./run-graxys.webp"

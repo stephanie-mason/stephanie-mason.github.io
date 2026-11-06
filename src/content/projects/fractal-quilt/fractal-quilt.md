@@ -1,7 +1,7 @@
 ---
 title: "Fractal Quilt"
 date: 2021-07-09
-categories: ["sewing"]
+categories: ["sewing", "fiber"]
 materials: ["Cotton"]
 cover: "./fractal-quilt-1.jpg"
 cover_alt: "Large quilt made with black and brightly colored squares that shatter into triangles to look like ripples in water"

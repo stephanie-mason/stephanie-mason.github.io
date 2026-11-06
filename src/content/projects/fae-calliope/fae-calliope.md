@@ -1,7 +1,7 @@
 ---
 title: "Nouveau Fae Calliope"
 date: 2022-04-23
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Soft Pastel"]
 dimensions: "13\" x 19\""
 cover: "./fae-calliope.jpg"

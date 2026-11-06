@@ -1,42 +1,42 @@
 ---
-import Hamburger from './Hamburger.astro';
-import ThemeIcon from '../components/ThemeIcon.astro';
-import { Image } from 'astro:assets';
-import Logo from '../images/logo.webp';
+import Hamburger from "./Hamburger.astro";
+import ThemeIcon from "../components/ThemeIcon.astro";
+import { Image } from "astro:assets";
+import Logo from "../images/logo.webp";
 ---
+
 <div class="logo">
-    <Image src={Logo} alt="Artwork by Stephanie Paulantis (colorful logo)" width="275"/>
+    <Image
+        src={Logo}
+        alt="Artwork by Stephanie Paulantis (colorful logo)"
+        width="275"
+    />
 </div>
 
 <Hamburger />
-<div class="main-navigation">          
-    <ThemeIcon /> 
-    
+<div class="main-navigation">
+    <ThemeIcon />
+
     <nav aria-label="Main">
-        <a href="/">About</a>
+        <a href="/">Home</a>
         <a href="https://ko-fi.com/stef_paulantis/commissions">Commissions</a>
-        
-        <h2>Drawing & Painting</h2>
-        <a href="/art/animals">Animals</a>
-        <a href="/art/people">People</a>
-        <a href="/art/other">Other</a>
-        
-        <h2>Electronics</h2>
-        <a href="/art/led-works">LED Art</a>
-        <a href="/art/wearables">Wearables</a>    
-        
-        <h2>Fiber Arts</h2>    
-        <a href="/art/knit-crochet">Knitting & Crochet</a>
-        <a href="/art/sewing">Sewing & Quilting</a>    
-        
-        <h2>Other Stuff</h2>    
+
+        <h2>Art</h2>
+        <a href="/aceos">ACEOs</a>
+        <a href="/art/paintings">Paintings</a>
+        <a href="/art/leds">LEDs</a>
+        <a href="/art/fiber">Fiber Arts</a>
+
+        <h2>Other</h2>
+        <a href="/blog">Blog Archive</a>
         <a href="/art/misc">Miscellany</a>
-        <a href="/blog">Blog Archive</a>   
-        
-        <h2>Social Links</h2>
+
+        <h2>Social</h2>
         <a href="https://www.instagram.com/variable_undefined/">Instagram</a>
-        <a href="https://www.ravelry.com/designers/stephanie-mason-paulantis">Ravelry</a>
-        <a href="https://github.com/stephanie-mason/">Github</a>        
+        <a href="https://www.ravelry.com/designers/stephanie-mason-paulantis"
+            >Ravelry</a
+        >
+        <a href="https://github.com/stephanie-mason/">Github</a>
     </nav>
 </div>
 
@@ -49,72 +49,99 @@ import Logo from '../images/logo.webp';
     }
     @media (min-width: 778px) {
         .main-navigation {
-            display: flex;            
+            display: flex;
         }
     }
     .main-navigation {
         --background-a: #380c38;
-        --background-b: #0C090A;
-        
-        background-color: var(--purple);            
-        background: linear-gradient(45deg, #0000 calc(25%/3), var(--background-b) 0 calc(50%/3),
-        #0000 0 calc(250%/3), var(--background-b) 0 calc(275%/3),
-        #0000 0), linear-gradient(45deg, var(--background-b) calc(25%/3), #0000 0 calc(50%/3),
-        var(--background-b) 0 25%, #0000 0 75%,
-        var(--background-b) 0 calc(250%/3), #0000 0 calc(275%/3),
-        var(--background-b) 0),
-        linear-gradient(-45deg, #0000 calc(25%/3), var(--background-b) 0 calc(50%/3),
-        #0000 0 calc(250%/3), var(--background-b) 0 calc(275%/3),
-        #0000 0), linear-gradient(-45deg, var(--background-b) calc(25%/3), #0000 0 calc(50%/3),
-        var(--background-b) 0 25%, #0000 0 75%,
-        var(--background-b) 0 calc(250%/3), #0000 0 calc(275%/3),
-        var(--background-b) 0) var(--background-a);
-        background-position: 0 0, 13px 13px;
-        background-size: 26px 26px;  
+        --background-b: #0c090a;
+
+        background-color: var(--purple);
+        background:
+            linear-gradient(
+                45deg,
+                #0000 calc(25% / 3),
+                var(--background-b) 0 calc(50% / 3),
+                #0000 0 calc(250% / 3),
+                var(--background-b) 0 calc(275% / 3),
+                #0000 0
+            ),
+            linear-gradient(
+                45deg,
+                var(--background-b) calc(25% / 3),
+                #0000 0 calc(50% / 3),
+                var(--background-b) 0 25%,
+                #0000 0 75%,
+                var(--background-b) 0 calc(250% / 3),
+                #0000 0 calc(275% / 3),
+                var(--background-b) 0
+            ),
+            linear-gradient(
+                -45deg,
+                #0000 calc(25% / 3),
+                var(--background-b) 0 calc(50% / 3),
+                #0000 0 calc(250% / 3),
+                var(--background-b) 0 calc(275% / 3),
+                #0000 0
+            ),
+            linear-gradient(
+                    -45deg,
+                    var(--background-b) calc(25% / 3),
+                    #0000 0 calc(50% / 3),
+                    var(--background-b) 0 25%,
+                    #0000 0 75%,
+                    var(--background-b) 0 calc(250% / 3),
+                    #0000 0 calc(275% / 3),
+                    var(--background-b) 0
+                )
+                var(--background-a);
+        background-position:
+            0 0,
+            13px 13px;
+        background-size: 26px 26px;
         color: var(--black);
-        
+
         position: fixed;
-        top: 0;        
+        top: 0;
         right: 0;
         transform: rotate(-3deg) translatey(-1rem);
-        z-index: 1;                
-        
+        z-index: 1;
+
         width: var(--menu-width);
-        height: calc(100vh + 2rem);         
-        
+        height: calc(100vh + 2rem);
+
         box-shadow: var(--lime) 2rem 2rem 0px;
     }
-    
-    nav {       
+
+    nav {
         display: flex;
         flex-flow: column;
         height: 92vh;
-        width: 100%;        
-        overflow-y: auto;              
+        width: 100%;
+        overflow-y: auto;
 
-        padding: var(--space--md);  
+        padding: var(--space--md);
     }
 
-    
     h2 {
         margin: 0;
         color: orange;
         text-transform: lowercase;
     }
-    
+
     a {
         text-decoration: none;
-        color: aqua;    
+        color: aqua;
         display: inline-block;
-        padding: var(--space--xs); 
+        padding: var(--space--xs);
         padding-left: 0;
-    }    
+    }
     a:hover,
     a:focus {
         background-color: var(--lime);
         color: var(--black);
     }
-    
+
     .logo img {
         display: block;
         margin: auto;
@@ -127,7 +154,7 @@ import Logo from '../images/logo.webp';
     }
 
     @media (min-width: 1165px) {
-        .logo {   
+        .logo {
             margin: 0;
             display: block;
             position: fixed;

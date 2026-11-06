@@ -1,7 +1,7 @@
 ---
 title:  "Sewing Roll up Knitting Needle Case/Needle Organizer"
 date: 2013-03-26 14:00:43
-tags: ["sewing", "knitting", "tutorial"]
+tags: ["sewing", "fiber", "knitting", "tutorial"]
 ---
 ![Knitting Needle Case/Organizer](/uploads/2013/03/knitting-needle-case_header.jpg)
 

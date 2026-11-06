@@ -1,7 +1,7 @@
 ---
 title: "Fur Fur"
 date: 2018-07-01
-categories: ["featured", "led-works"]
+categories: ["featured", "leds"]
 materials: ["Cotton, wire, and WS2812B LEDs powered by an Adafruit Circuit Playground"]
 dimensions: "2' x 3' x 4'"
 cover: "./fur-fur-0.webp"

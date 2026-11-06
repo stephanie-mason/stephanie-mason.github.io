@@ -1,7 +1,7 @@
 ---
 title:  "Deadman Wonderland Circus Costumes"
 date: 2013-02-07 00:37:17
-tags: ["sewing", "circus"]
+tags: ["sewing", "fiber", "circus"]
 ---
 Big announcement! Deadman Wonderland Circus tickets are officially on sale now. If you live in the Bellingham/Whatcom County area, you should definitely buy some tickets and come see us on March. If you live a little further South, in the Skagit County Area, stay tuned because we will also be doing shows at the Lincoln Theater in  Mt. Vernon!
 

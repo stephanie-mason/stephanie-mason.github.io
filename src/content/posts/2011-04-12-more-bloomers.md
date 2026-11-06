@@ -1,7 +1,7 @@
 ---
 title:  "More Bloomers"
 date:   2011-04-12 17:26:00
-tags: ["sewing"]
+tags: ["sewing", "fiber"]
 ---
 
 

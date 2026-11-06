@@ -1,7 +1,7 @@
 ---
 title:  "Valances for Grandma"
 date: 2013-04-15 23:31:22
-tags: ["sewing"]
+tags: ["sewing", "fiber"]
 ---
 It has been quite a busy visit! We have done a lot of driving and walking around here, with some thrift shopping and lots of activities getting my grandparent's new house all finished up. Thursday we went all over town finding fabric for some valances my grandma wanted me to make for her. I've spent the last couple evenings working on them here and there, and these are the results.
 

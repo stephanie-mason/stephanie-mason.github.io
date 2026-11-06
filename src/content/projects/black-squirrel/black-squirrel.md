@@ -1,7 +1,7 @@
 ---
 title: "Black Squirrel"
 date: 2025-10-12
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Goauche on Aquabord"]
 dimensions: "6\" x 6\""
 cover: "./black-squirrel.webp"

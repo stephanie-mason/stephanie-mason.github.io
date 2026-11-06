@@ -1,7 +1,7 @@
 ---
 title: "Canyon"
 date: 2024-02-10
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Soft Pastel & Colored Pencil"]
 dimensions: "9\" x 12\""
 cover: "./canyon-flowers-2.jpeg"

@@ -1,7 +1,7 @@
 ---
 title: "LED Sparkle Cape"
 date: 2018-07-01
-categories: ["wearables"]
+categories: ["leds", "wearables"]
 materials: ["WS2812B LEDs powered by FastLED on Trinket"]
 cover: "./led-cape.webp"
 cover_alt: "Knee length black sequin cape with led animations down the back"

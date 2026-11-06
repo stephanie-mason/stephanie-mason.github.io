@@ -1,7 +1,7 @@
 ---
 title: "LED Horns"
 date: 2016-07-01
-categories: ["wearables"]
+categories: ["leds", "wearables"]
 materials: ["WS2812B LEDs powered by Adafruit Trinket"]
 cover: "./horns-smaller.gif"
 cover_alt: "Rams horns with stripes of LEDs that cycle through green and red animations"

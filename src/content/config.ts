@@ -24,6 +24,17 @@ const projectsCollection = defineCollection({
     videos: z.array(z.string()).optional()
   })
 });
+const aceosCollection = defineCollection({
+  type: 'content',
+  schema: ({ image }) => z.object({
+    title: z.string(),
+    date: z.date(),
+    categories: z.array(z.string()),
+    materials: z.array(z.string()),
+    cards: z.array(image()).optional(),
+    card_alts: z.array(z.string()).optional()
+  })
+});
 // Export a single `collections` object to register your collection(s)
 export const collections = {
   posts: postsCollection,

@@ -1,7 +1,7 @@
 ---
 title: "Linen Smock Dress"
 date: 2019-07-16
-categories: ["sewing"]
+categories: ["sewing", "fiber"]
 materials: ["Linen"]
 cover: "./linen-smock-dress-1.jpg"
 cover_alt: "Simple black smock dress with hand sewn visible seams"

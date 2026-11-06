@@ -1,7 +1,7 @@
 ---
 title: "Synthwave Sweater"
 date: 2018-12-11
-categories: ["knit-crochet"]
+categories: ["knit-crochet", "fiber"]
 materials: ["Knit Picks Palette"]
 cover: "./synthwave-sweater-1.jpg"
 cover_alt: "Sweater with a synthwave setting sun, palm trees, and little corvettes"

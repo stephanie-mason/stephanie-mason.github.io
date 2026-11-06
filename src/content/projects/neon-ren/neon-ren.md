@@ -1,7 +1,7 @@
 ---
 title: "Neon Ren"
 date: 2024-05-12
-categories: ["people"]
+categories: ["people", "paintings"]
 materials: ["Oil on Canvas"]
 dimensons: "18\" x 24\""
 cover: "./ren-1.jpeg"

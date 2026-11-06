@@ -1,7 +1,7 @@
 ---
 title: "Green Leaf Stays"
 date: 2024-01-01
-categories: ["sewing"]
+categories: ["sewing", "fiber"]
 materials: ["Acid Dye on Wool"]
 cover: "./green-leaf-stays-3.jpeg"
 cover_alt: "Green stays died with leaf resist pattern"

@@ -1,7 +1,7 @@
 ---
 title: "Jason and Rytherck"
 date: 2024-03-04
-categories: ["people"]
+categories: ["people", "paintings"]
 materials: ["Soft Pastel"]
 dimensions: "20\" x 28\""
 cover: "./jason-rytherck-1.jpeg"

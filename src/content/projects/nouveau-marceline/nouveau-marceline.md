@@ -1,7 +1,7 @@
 ---
 title: "Marceline"
 date: 2024-01-19
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Soft Pastel"]
 dimensions: "9\" x 12\""
 cover: "./nouveau-marceline-3.jpeg"

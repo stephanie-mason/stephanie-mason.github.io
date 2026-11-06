@@ -1,7 +1,7 @@
 ---
 title: "Witchy Deer"
 date: 2025-08-11
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Watercolor & Soft Pastel"]
 dimensions: "10\" x 14\""
 cover: "./witchy-deer.webp"

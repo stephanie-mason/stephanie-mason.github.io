@@ -1,7 +1,7 @@
 ---
 title: "Macbeth Sweater"
 date: 2026-09-21
-categories: ["knit-crochet"]
+categories: ["knit-crochet", "fiber"]
 materials: ["Berroco Vintage"]
 cover: "./macbeth2.jpeg"
 cover_alt: "Front view of black, gray, and orange plaid sweater"

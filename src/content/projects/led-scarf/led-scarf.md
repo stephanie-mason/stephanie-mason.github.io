@@ -1,7 +1,7 @@
 ---
 title: "LED Scarf"
 date: 2015-09-01
-categories: ["wearables"]
+categories: ["leds", "wearables"]
 materials: ["LED Sequins and Circle powered by Adafruit Flora"]
 cover: "./led-scarf.webp"
 cover_alt: ""

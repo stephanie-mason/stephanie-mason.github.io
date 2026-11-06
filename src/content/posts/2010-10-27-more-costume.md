@@ -1,7 +1,7 @@
 ---
 title:  "More Costume"
 date:   2010-10-27 15:26:00
-tags: ["sewing"]
+tags: ["sewing", "fiber"]
 ---
 
 <img src="/uploads/2010/10/vest.jpg">

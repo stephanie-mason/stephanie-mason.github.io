@@ -1,7 +1,7 @@
 ---
 title: "Neon Wild Dog"
 date: 2026-10-09
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Acrylagouache"]
 dimensions: "6\" x 6\""
 cover: "./neon-wild-dog.webp"

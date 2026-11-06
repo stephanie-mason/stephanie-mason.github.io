@@ -1,7 +1,7 @@
 ---
 title: "Holographic Bell Bottoms"
 date: 2021-09-13
-categories: ["sewing"]
+categories: ["sewing", "fiber"]
 materials: ["Holographic Lycra"]
 cover: "./holo-bells-2.jpg"
 cover_alt: "Stephanie wearing black bell bottoms with a wide holographic scribble stripe"

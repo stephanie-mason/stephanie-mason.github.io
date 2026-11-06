@@ -1,7 +1,7 @@
 ---
 title:  "DIY Duvet Cover with Tucks"
 date: 2013-01-21 20:54:24
-tags: ["sewing"]
+tags: ["sewing", "fiber"]
 ---
 It is a beautiful day today. Sunny, clear, cold but happy.
 

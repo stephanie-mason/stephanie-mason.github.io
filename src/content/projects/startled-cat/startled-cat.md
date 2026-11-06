@@ -1,7 +1,7 @@
 ---
 title: "Startled Cats"
 date: 2024-10-03
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Watercolor, Soft Pastel, and Aqua Oil"]
 dimensions: "6\" x 6\""
 cover: "./startled-cat-1.jpeg"

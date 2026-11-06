@@ -1,7 +1,7 @@
 ---
 title: "Neon Rave Onesie"
 date: 2018-03-21
-categories: ["knit-crochet"]
+categories: ["knit-crochet", "fiber"]
 materials: ["Red Heart Variegated"]
 cover: "./neon-rave-onesie-3.jpg"
 cover_alt: "Stephanie in a crocheted onesie, made with fluorescent stripey yarn and a fuzzy hood"

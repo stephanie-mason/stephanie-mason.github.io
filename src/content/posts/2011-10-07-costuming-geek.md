@@ -1,7 +1,7 @@
 ---
 title:  "Costuming Geek"
 date: 2011-10-07 14:17:00
-tags: ["sewing", "costume"]
+tags: ["sewing", "fiber", "costume"]
 ---
 
 <img src="/uploads/2011/10/geek01.jpg">

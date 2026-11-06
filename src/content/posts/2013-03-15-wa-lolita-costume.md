@@ -1,7 +1,7 @@
 ---
 title:  "My Deadman Wonderland Costume: Wa Lolita Inspired"
 date: 2013-03-15 23:22:41
-tags: ["sewing", "costume"]
+tags: ["sewing", "fiber", "costume"]
 ---
 We performed our last show last night! It went fantastically, and while I am fairly happy to be done with the project and able to focus on other things, I am still very happy with how it came out and with having participated.
 

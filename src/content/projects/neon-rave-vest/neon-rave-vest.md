@@ -1,7 +1,7 @@
 ---
 title: "Neon Rave Vest & Pants"
 date: 2018-05-20
-categories: ["knit-crochet"]
+categories: ["knit-crochet", "fiber"]
 materials: ["Red Heart Variegated"]
 cover: "./neon-rave-vest-1.jpg"
 cover_alt: "Stephanie wearing a neon rainbow, crocheted, collared, open side vest with Jason in pink and purple crochet pants."

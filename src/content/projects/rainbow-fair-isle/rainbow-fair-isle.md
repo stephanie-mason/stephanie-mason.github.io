@@ -1,7 +1,7 @@
 ---
 title: "Rainbow Fair Isle Top"
 date: 2023-11-08
-categories: ["knit-crochet"]
+categories: ["knit-crochet", "fiber"]
 materials: ["Various fingering weight scrap yarns"]
 cover: "./rainbow-fair-isle-1.jpeg"
 cover_alt: "Short sleeve 40s style cropped sweater, with colorful bands of geometric stripes on a black background"

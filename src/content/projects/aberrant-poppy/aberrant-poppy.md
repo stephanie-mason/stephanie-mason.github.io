@@ -1,7 +1,7 @@
 ---
 title: "Aberrant Poppy"
 date: 2024-08-28
-categories: ["floral", "other"]
+categories: ["floral", "paintings"]
 materials: ["Soft Pastel"]
 dimensions: "9\" x 12\""
 cover: "./poppy-1.jpeg"

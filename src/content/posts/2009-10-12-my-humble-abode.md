@@ -1,7 +1,7 @@
 ---
 title:  "My Humble Abode"
 date:   2009-10-12 16:26:00
-tags: ["sewing", "old"]
+tags: ["sewing", "fiber", "old"]
 ---
 
 Five months and no posts! I can explain.In May I graduated from college. And then I did some crafty things but was busy packing up my stuff to move to Bellingham, WA. And then I did move, and then I spent three months living with my dad and I didn't have pretty much any of my crafting things unpacked while there. I did a little knitting but didn't finish any projects. While I could have taken some pictures of some of the things I had finished in the month between my graduating and my moving, I didn't.However, I have now moved into my own apartment and have been super busy decorating! So this post is dedicated to what I've done so far. Some of it is crafting, and some of it is just decorating, but it all kind of goes together :) I still have some more things to do and I may end up posting them as I finish them, but this big update should do for now!First, the bedroom. In here all I really did craft wise was put some beautiful batik fabric on the walls using some fabric starch (so they'll be easy to take down when I move out, and I can just wash the starch off the wals with water). I also hung a Klimt curtain thing over the bed as a headrest sort of deal.

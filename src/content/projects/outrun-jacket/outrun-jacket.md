@@ -1,7 +1,7 @@
 ---
 title: "Outrun Jacket"
 date: 2017-09-22
-categories: ["wearables"]
+categories: ["leds", "wearables"]
 materials: [Fiber Optics & WS2812B LEDs"]
 cover: "./outrun-jacket.webp"
 cover_alt: "Pleather jacket with fiber optic lines around the seams"

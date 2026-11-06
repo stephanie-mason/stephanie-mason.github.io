@@ -1,7 +1,7 @@
 ---
 title: "Stella"
 date: 2022-03-15
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Soft Pastel"]
 dimensions: "9\" x 12\""
 cover: "./stella.jpg"

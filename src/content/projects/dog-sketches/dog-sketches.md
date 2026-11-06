@@ -1,7 +1,7 @@
 ---
 title: "Dog Sketches"
 date: 2026-10-01
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Gouache"]
 dimensions: "6\" x 9\""
 cover: "./graxys.webp"

@@ -1,7 +1,7 @@
 ---
 title:  "Sh'Bangies"
 date: 2012-06-12 09:51:00
-tags: ["sewing"]
+tags: ["sewing", "fiber"]
 ---
 
 <img src="/uploads/2012/06/undies01.jpg">

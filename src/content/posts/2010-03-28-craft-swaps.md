@@ -1,7 +1,7 @@
 ---
 title:  "Craft Swaps"
 date:   2010-03-28 18:38:00
-tags: ["sewing", "old"]
+tags: ["sewing", "fiber", "old"]
 ---
 
 <img src="/uploads/2010/03/craftswap01.jpg">

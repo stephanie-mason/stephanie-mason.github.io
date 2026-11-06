@@ -1,7 +1,7 @@
 ---
 title: "Embroidered Stays"
 date: 2022-08-12
-categories: ["sewing"]
+categories: ["sewing", "fiber"]
 materials: ["Linen and Cotton Embroidery Thread"]
 cover: "./embroidered-stays-1.jpg"
 cover_alt: "Black linen stays with 3d flower embroidery along the top edge"

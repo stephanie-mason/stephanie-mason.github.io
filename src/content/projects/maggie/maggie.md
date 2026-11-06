@@ -1,7 +1,7 @@
 ---
 title: "Maggie"
 date: 2022-04-14
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Soft Pastel & Colored Pencil"]
 dimensions: "10\" x 10\""
 cover: "./maggie.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Crochet Lace Top"
 date: 2023-03-23
-categories: ["knit-crochet"]
+categories: ["knit-crochet", "fiber"]
 materials: ["Madelentosh Merino Light"]
 cover: "./crochet-lace-top-1.jpg"
 cover_alt: "Crocheted halter top with lace over the chest and crossed ties"

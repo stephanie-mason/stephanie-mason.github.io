@@ -1,7 +1,7 @@
 ---
 title:  "Sewing Tutorial: DIY Headband Tutorial"
 date: 2013-03-14 20:29:02
-tags: ["sewing", "tutorial"]
+tags: ["sewing", "fiber", "tutorial"]
 ---
 
 ![DIY Headband Tutorial](/uploads/2013/03/headband-banner.jpg "DIY Headband Tutorial")

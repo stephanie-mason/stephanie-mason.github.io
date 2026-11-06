@@ -1,7 +1,7 @@
 ---
 title: "Rennaissance Faire Dress"
 date: 2019-07-25
-categories: ["sewing", "costuming"]
+categories: ["sewing", "fiber", "costuming"]
 materials: ["Linen"]
 cover: "./ren-faire-dress-0.jpg"
 cover_alt: "Stephanie in full Elizabethan outfit, a gray kirtle over black stays, white smock, and red petticoat"

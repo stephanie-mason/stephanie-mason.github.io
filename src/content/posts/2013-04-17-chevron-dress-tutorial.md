@@ -1,7 +1,7 @@
 ---
 title:  "DIY Chevron Dress Tutorial"
 date: 2013-04-17 20:26:02
-tags: ["sewing", "tutorial"]
+tags: ["sewing", "fiber", "tutorial"]
 ---
 Hey there!
 

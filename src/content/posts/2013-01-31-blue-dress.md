@@ -1,7 +1,7 @@
 ---
 title:  "Finished Sewing Project: Blue Dress"
 date: 2013-01-31 20:34:54
-tags: ["sewing"]
+tags: ["sewing", "fiber"]
 ---
 A few months ago I made this blue dress, using the [BurdaStyle sewing pattern "Cate."](http://www.burdastyle.com/pattern_store/patterns/cate)
 

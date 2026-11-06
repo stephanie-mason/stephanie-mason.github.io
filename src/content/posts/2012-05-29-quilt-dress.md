@@ -1,7 +1,7 @@
 ---
 title:  "Quilt Dress"
 date: 2012-05-29 20:13:00
-tags: ["sewing"]
+tags: ["sewing", "fiber"]
 ---
 
 <img src="/uploads/2012/05/dress01.jpg">

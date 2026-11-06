@@ -1,7 +1,7 @@
 ---
 title: "Osprey"
 date: 2022-03-16
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Soft Pastel & Colored Pencil"]
 dimensions: "20\" x 28\""
 cover: "./osprey.jpg"

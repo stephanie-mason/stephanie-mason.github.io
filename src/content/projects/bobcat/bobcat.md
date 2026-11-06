@@ -1,7 +1,7 @@
 ---
 title: "Bobcat"
 date: 2025-08-25
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Watercolor, Goauche, Colored Pencil"]
 dimensions: "9\" x 12\""
 cover: "./bobcat.webp"

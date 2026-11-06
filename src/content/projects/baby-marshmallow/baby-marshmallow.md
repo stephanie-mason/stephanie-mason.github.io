@@ -1,7 +1,7 @@
 ---
 title: "Baby Marshmallow"
 date: 2025-05-01
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Soft Pastel on Pastelbord"]
 dimensions: "8\" x 10\""
 cover: "./baby-marshmallow.webp"

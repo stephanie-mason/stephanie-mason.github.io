@@ -1,7 +1,7 @@
 ---
 title: "Maggie D."
 date: 2025-07-19
-categories: ["animals"]
+categories: ["animals", "paintings"]
 materials: ["Soft pastel and watercolor"]
 dimensions: "9\" x 12\""
 cover: "./maggie-davidson.webp"

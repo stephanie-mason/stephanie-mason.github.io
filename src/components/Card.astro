@@ -2,7 +2,7 @@
 import { Image } from 'astro:assets';
 const { title, href, image, image_alt } = Astro.props;
 ---
-<div class="card" href={href}>    
+<div class="card">    
     <a href={href}><h2>{title}</h2></a>
     <Image src={image} alt={image_alt} width="300"/>
     

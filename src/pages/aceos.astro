@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
 const allACEOs = await getCollection("aceos");
 const pageTitle = "ACEOs";
 
@@ -10,32 +11,83 @@ aceos = allACEOs.sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
 
 <BaseLayout pageTitle={pageTitle}>
 	<p>
-		I have recently begun making art trading cards and ACEOs to sell. These are the
-		collections that I have made so far. You can find <a href="https://tinygallery.io/user/stef">my ACEOs for sale on TinyGallery.</a>
+		I have recently begun making art trading cards and ACEOs to sell. These
+		are the collections that I have made so far. You can find
+		<a href="https://tinygallery.io/user/stef"
+			>my ACEOs for sale on TinyGallery.</a
+		>
 	</p>
 
-	<div class="two-col"
-			<div class="col">
-				<ul>
-					{
-						aceos.map((aceo) => (
-							<li>
-								<a href={`/aceos/${aceo.slug}/`}>
-									{aceo.data.title} -{" "}
-									{aceo.data.date.toLocaleDateString("en-US")}
-								</a>
-							</li>
-						))
-					}
-				</ul>
-			</div>
-		</a>
-	</p>
+	<div class="collections">
+		{
+			aceos.map((aceo) => (
+				<div class="collection">
+					<a href={`/aceos/${aceo.slug}/`}>
+						<h2>
+							{aceo.data.title} -{" "}
+							{aceo.data.date.toLocaleDateString("en-US", {
+								month: "long",
+								year: "numeric",
+							})}
+						</h2>
+					</a>
+					<div class="thumbnails">
+						{aceo.data.cards?.map((card, index) => (
+							<Image
+								src={card}
+								alt={
+									aceo.data.card_alts?.[index] ??
+									aceo.data.title
+								}
+								width="180"
+							/>
+						))}
+					</div>
+				</div>
+			))
+		}
+	</div>
 
 	<style>
-		.two-col {
-			display: grid;
-			grid-template-columns: 1fr 1fr;
+		.collection {
+			display: inline-flex;
+			flex-flow: column;
+			position: relative;
+			max-width: calc(100vw - (var(--space--xs) * 2));
+		}
+		.thumbnails {
+			display: flex;
+			gap: var(--space--xs);
+			transition: gap ease 0.2s;
+		}
+		h2 {
+			margin: var(--space--sm);
+		}
+		.collection a {
+			display: inline-block;
+			text-decoration: none;
+		}
+		.collection a:before {
+			display: block;
+			content: "";
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+
+			transition: box-shadow ease 0.2s;
+			border: solid 2px aqua;
+		}
+		.collection a:active + .thumbnails,
+		.collection a:hover + .thumbnails,
+		.collection a:focus + .thumbnails {
+			gap: var(--space--sm);
+		}
+		.collection a:active:before,
+		.collection a:focus:before,
+		.collection a:hover:before {
+			box-shadow: var(--lime) 3px 3px 3px;
 		}
 	</style>
 </BaseLayout>

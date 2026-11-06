@@ -1,0 +1,41 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+const allACEOs = await getCollection("aceos");
+const pageTitle = "ACEOs";
+
+let { aceos } = Astro.props;
+aceos = allACEOs.sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
+---
+
+<BaseLayout pageTitle={pageTitle}>
+	<p>
+		I have recently begun making art trading cards and ACEOs to sell. These are the
+		collections that I have made so far. You can find <a href="https://tinygallery.io/user/stef">my ACEOs for sale on TinyGallery.</a>
+	</p>
+
+	<div class="two-col"
+			<div class="col">
+				<ul>
+					{
+						aceos.map((aceo) => (
+							<li>
+								<a href={`/aceos/${aceo.slug}/`}>
+									{aceo.data.title} -{" "}
+									{aceo.data.date.toLocaleDateString("en-US")}
+								</a>
+							</li>
+						))
+					}
+				</ul>
+			</div>
+		</a>
+	</p>
+
+	<style>
+		.two-col {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+		}
+	</style>
+</BaseLayout>

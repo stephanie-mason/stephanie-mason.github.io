@@ -1,0 +1,19 @@
+---
+import { getCollection } from "astro:content";
+import ACEOsLayout from "../../layouts/ACEOsLayout.astro";
+
+export async function getStaticPaths() {
+  const aceoEntries = await getCollection("aceos");
+  return aceoEntries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<ACEOsLayout frontmatter={entry.data}>
+  <Content />
+</ACEOsLayout>

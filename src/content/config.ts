@@ -37,6 +37,7 @@ const aceosCollection = defineCollection({
 });
 // Export a single `collections` object to register your collection(s)
 export const collections = {
+  aceos: aceosCollection,
   posts: postsCollection,
   projects: projectsCollection,
 };

@@ -32,7 +32,9 @@ const aceosCollection = defineCollection({
     categories: z.array(z.string()),
     materials: z.array(z.string()),
     cards: z.array(image()).optional(),
-    card_alts: z.array(z.string()).optional()
+    card_alts: z.array(z.string()).optional(),
+    images: z.array(image()).optional(),
+    image_alts: z.array(z.string()).optional()
   })
 });
 // Export a single `collections` object to register your collection(s)

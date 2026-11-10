@@ -14,7 +14,7 @@ posts = allPosts.sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
 	<div class="two-col">
 		<div class="col">
 			<ul>
-				{posts.map((post) => <li><a href={`/posts/${post.slug}/`}>{post.data.title} - {post.data.date.toLocaleDateString("en-US")}</a></li>)}
+				{posts.map((post) => <li><a href={`/posts/${post.id}/`}>{post.data.title} - {post.data.date.toLocaleDateString("en-US")}</a></li>)}
 			</ul>
 		</div>
 		
